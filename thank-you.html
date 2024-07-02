@@ -10,7 +10,7 @@
   <link href="https://fonts.cdnfonts.com/css/geometria" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
-<body>
+<body style="background-color: #ffffff;">
   <div class="pop_up" id="pop_up" style="z-index: 3;display: none;">
     <div class="pop_up_container">
       <div class="pop_up_body">
@@ -50,6 +50,8 @@
           </div>
 
           <form class="form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="redirect" value="https://frontwebil.github.io/Converter/thank-you.html">
+            
             <input type="hidden" name="subject" value="У вас нова заявка з сайту genergo.kyiv.ua">
 
             <input type="hidden" name="access_key" value="f07fd99c-b949-4c09-a827-d41b205a1033">
@@ -70,7 +72,6 @@
               <p class="redirect-button-text">ПОДАТИ ЗАЯВКУ</p>
             </button>
           </form>
-          <input type="hidden" name="redirect" value="">
         </div>
       </div>
     </div>

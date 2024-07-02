@@ -19,32 +19,42 @@ let hoursHtml = document.getElementById('hrs');
 let minutesHtml = document.getElementById('min');
 let secondsHtml = document.getElementById('sec');
 
-function timeUntil1am() {
+function getNextSegmentTime() {
   const now = new Date();
-  const targetTime = new Date();
-  targetTime.setHours(1, 0, 0, 0);
+  const currentHour = now.getHours();
+  const segment = Math.floor(currentHour / 6) + 1;
+  const targetHour = (segment * 6) % 24;
+  
+  const targetTime = new Date(now);
+  targetTime.setHours(targetHour, 0, 0, 0);
 
-  if (now.getHours() >= 1) {
-      targetTime.setDate(targetTime.getDate() + 1);
+  if (targetTime <= now) {
+    targetTime.setDate(targetTime.getDate() + 1);
   }
+
+  return targetTime;
+}
+
+function updateCountdown() {
+  const now = new Date();
+  const targetTime = getNextSegmentTime();
 
   const timeDifference = targetTime - now;
   const hours = Math.floor(timeDifference / (1000 * 60 * 60));
   const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
-  return { hours, minutes, seconds };
-}
-
-function updateCountdown() {
-  const { hours, minutes, seconds } = timeUntil1am();
-  hoursHtml.innerHTML = hours.toString().padStart(2, 0);
-  minutesHtml.innerHTML = minutes.toString().padStart(2, 0);
-  secondsHtml.innerHTML = seconds.toString().padStart(2, 0);
-
+  hoursHtml.innerHTML = hours.toString().padStart(2, '0');
+  minutesHtml.innerHTML = minutes.toString().padStart(2, '0');
+  secondsHtml.innerHTML = seconds.toString().padStart(2, '0');
 }
 
 setInterval(updateCountdown, 1000);
+
+// Инициализация таймера
+updateCountdown();
+
+
 
 
 // SWIPER

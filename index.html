@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="media.css">
   <link href="https://fonts.cdnfonts.com/css/geometria" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <meta property="og:title" content="genergo.kyiv.ua">
+  <meta property="og:description" content="Хочете, щоб  у вашому помешканні завжди була електрика?">
+  <meta property="og:image" content="./open-graph/main.jpg">
   <title>Converter</title>
   <style>
     html,
@@ -86,7 +89,8 @@
           <div class="pop-up-icons" style="margin: 10px 10px;">
             <div class="footer-column-row">
               <a href="https://msng.link/o?380682202291=vi">
-                <img src="icons/viber-black.svg" alt="" class="footer-column-row-icon" style="width: 32px;height: 32px;">
+                <img src="icons/viber-black.svg" alt="" class="footer-column-row-icon"
+                  style="width: 32px;height: 32px;">
               </a>
               <a href="https://t.me/GenergoUA">
                 <img src="icons/telegram-black.svg" alt="" class="footer-column-row-icon"
@@ -98,8 +102,8 @@
           <form class="form" action="https://api.web3forms.com/submit" method="POST">
             <input type="hidden" name="subject" value="У вас нова заявка з сайту genergo.kyiv.ua">
 
-            <input type="hidden" name="access_key" value="f07fd99c-b949-4c09-a827-d41b205a1033">
-            
+            <input type="hidden" name="access_key" value="10387d0a-e773-4008-b068-a575d146eb9a">
+
             <p class="form-text">Ім'я</p>
             <input type="text" name="Ім'я" class="input" id="name" />
             <p class="form-text">Номер телефону</p>
@@ -112,17 +116,18 @@
             style="max-width: 350px; padding: 18px 100px"
             >ПОДАТЬ ЗАЯВКУ</a
             > -->
-            <button class="redirect-button" id="Submit_letter" onclick="getValue()" style="margin-top: 10px;" type="submit">
+            <button class="redirect-button" id="Submit_letter" onclick="getValue()" style="margin-top: 10px;"
+              type="submit">
               <p class="redirect-button-text">ПОДАТИ ЗАЯВКУ</p>
             </button>
+            <input type="hidden" name="redirect" value="https://frontwebil.github.io/Converter/thank-you.html">
           </form>
-          <input type="hidden" name="redirect" value="http://127.0.0.1:5500/thank-you.html?">
         </div>
       </div>
     </div>
   </div>
 
-  <div class="pop_up_end" id="pop_up_end" style="z-index: 3;display: none"> 
+  <div class="pop_up_end" id="pop_up_end" style="z-index: 3;display: none">
     <div class="pop_up_container">
       <div class="pop_up_body">
         <div class="container-pop" style="padding-bottom: 50px">
@@ -201,27 +206,27 @@
             комп'ютер і телевізор
           </p>
 
-          <button href="#timer" class="order-button-standart margin-auto mobile-header-none open_pop_up">
+          <a href="#timer" class="order-button-standart margin-auto mobile-header-none">
             <img src="icons/arrow-to-right.svg" alt="" class="order-button-icon" />
             <p class="order-button-text">Замовити</p>
             <img src="icons/arrow-to-left.svg" alt="" class="order-button-icon" />
-          </button>
+          </a>
         </div>
         <div class="header-content-image-container">
           <img src="images/header/main-image.png" alt="" class="header-content-image" />
         </div>
-        <button  class="order-button-standart margin-auto mobile-header-button open_pop_up">
+        <a href="#timer" class="order-button-standart margin-auto mobile-header-button">
           <img src="icons/arrow-to-right.svg" alt="" class="order-button-icon" />
           <p class="order-button-text">Замовити</p>
           <img src="icons/arrow-to-left.svg" alt="" class="order-button-icon" />
-        </button>
+        </a>
       </div>
     </div>
   </header>
   <a href="#video" class="arrow-bottom" style="background-color: #b9dcea;">
     <img src="icons/arrow-bottom.svg" alt="" />
   </a>
-  <section class="secction-video" id="video" >
+  <section class="secction-video" id="video">
     <h2 class="title">
       <span class="bold">Тисніть на відео</span> та дізнайтеся за дві хвилини,
       як швидко та <br />
@@ -372,7 +377,7 @@
 
           </div>
         </div>
-        <div class="tab__content hidden-tab-content" id="tab-2" >
+        <div class="tab__content hidden-tab-content" id="tab-2">
           <div class="tabs-cards gap-five" style="flex-wrap: nowrap;">
             <div class="tabs-card">
               <div class="tabs-border-content">
@@ -393,7 +398,7 @@
                 <p class="tabs-card-text">
                   <span>Ми пропонуємо</span> гелеві або літій-залізо-фосфатні
                   акумулятори. Вони повністю безпечні та можуть
-                  розміщуватись  безпосередньо в приміщенні. 
+                  розміщуватись безпосередньо в приміщенні. 
                 </p>
               </div>
             </div>
@@ -535,19 +540,19 @@
 
       <div class="timer" style="margin-top: 50px">
         <div class="time-block">
-          <div class="time" id="hrs">06</div>
+          <div class="time" id="hrs">00</div>
         </div>
 
         <div class="betw">:</div>
 
         <div class="time-block">
-          <div class="time" id="min">45</div>
+          <div class="time" id="min">00</div>
         </div>
 
         <div class="betw">:</div>
 
         <div class="time-block">
-          <div class="time" id="sec">23</div>
+          <div class="time" id="sec">00</div>
         </div>
       </div>
 
@@ -613,11 +618,11 @@
             <p class="order-now-card-price-now">29 000 грн</p>
           </div>
 
-          <a href="#" class="order-button-standart" style="margin: 0 auto;">
+          <button class="order-button-standart open_pop_up" style="margin: 0 auto;">
             <img src="icons/arrow-to-right.svg" alt="" class="order-button-icon" />
             <p class="order-button-text">Замовити</p>
             <img src="icons/arrow-to-left.svg" alt="" class="order-button-icon" />
-          </a>
+          </button>
 
           <div class="order-now-card-undercard mobile-none">
             <img src="images/all/today.png" alt="" class="order-now-card-undercard-icon">
@@ -694,11 +699,11 @@
             <p class="order-now-card-price-now">42 500 грн</p>
           </div>
 
-          <a href="#" class="order-button-standart" style="margin: 0 auto;">
+          <button class="order-button-standart open_pop_up" style="margin: 0 auto;">
             <img src="icons/arrow-to-right.svg" alt="" class="order-button-icon" />
             <p class="order-button-text">Замовити</p>
             <img src="icons/arrow-to-left.svg" alt="" class="order-button-icon" />
-          </a>
+          </button>
 
           <div class="order-now-card-undercard mobile-none">
             <img src="images/all/today.png" alt="" class="order-now-card-undercard-icon">
@@ -774,11 +779,11 @@
             <p class="order-now-card-price-now">77 000 грн</p>
           </div>
 
-          <a href="#" class="order-button-standart" style="margin: 0 auto;">
+          <button class="order-button-standart open_pop_up" style="margin: 0 auto;">
             <img src="icons/arrow-to-right.svg" alt="" class="order-button-icon" />
             <p class="order-button-text">Замовити</p>
             <img src="icons/arrow-to-left.svg" alt="" class="order-button-icon" />
-          </a>
+          </button>
 
           <div class="order-now-card-undercard mobile-none">
             <img src="images/all/today.png" alt="" class="order-now-card-undercard-icon">
@@ -1163,7 +1168,7 @@
           енергозбереження та забезпечте себе комфортом і стабільністю.</h2>
         <div class="card-content-row">
 
-          <a href="#timer" class="order-button-standart" >
+          <a href="#timer" class="order-button-standart">
             <img src="icons/arrow-to-right.svg" alt="" class="order-button-icon" />
             <p class="order-button-text">Замовити</p>
             <img src="icons/arrow-to-left.svg" alt="" class="order-button-icon" />
