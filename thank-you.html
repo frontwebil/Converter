@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вашу заявку відправлено!</title>
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="media.css">
+  <link href="https://fonts.cdnfonts.com/css/geometria" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+  <div class="pop_up" id="pop_up" style="z-index: 3;display: none;">
+    <div class="pop_up_container">
+      <div class="pop_up_body">
+        <div class="container-pop">
+          <div class="pop_up_top">
+            <p class="Pop-top-text">Ми обов'язково зв'яжемося з вами</p>
+            <div style="cursor: pointer" id="close_pop_up">
+              <p class="close-x">&times;</p>
+            </div>
+          </div>
+          <p class="pop-up-p-info">
+            Залиште свої контакти або зв'яжіться з нами!
+          </p>
+
+          <div class="pop-up-row" style="margin: 10px 10px;">
+            <a href="tel:0800337592" class="footer-column-row">
+              <img src="icons/phone-black.svg" alt="" class="footer-column-row-icon">
+              <p class="footer-column-row-text" style="color: #000;">080 033 75 92</p>
+            </a>
+            <a href="tel:+380974597557" class="footer-column-row">
+              <img src="icons/phone-black.svg" alt="" class="footer-column-row-icon">
+              <p class="footer-column-row-text" style="color: #000;">+38 097 459 75 57 </p>
+            </a>
+          </div>
+
+
+          <div class="pop-up-icons" style="margin: 10px 10px;">
+            <div class="footer-column-row">
+              <a href="https://msng.link/o?380682202291=vi">
+                <img src="icons/viber-black.svg" alt="" class="footer-column-row-icon" style="width: 32px;height: 32px;">
+              </a>
+              <a href="https://t.me/GenergoUA">
+                <img src="icons/telegram-black.svg" alt="" class="footer-column-row-icon"
+                  style="width: 32px;height: 32px;">
+              </a>
+            </div>
+          </div>
+
+          <form class="form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="subject" value="У вас нова заявка з сайту genergo.kyiv.ua">
+
+            <input type="hidden" name="access_key" value="f07fd99c-b949-4c09-a827-d41b205a1033">
+            
+            <p class="form-text">Ім'я</p>
+            <input type="text" name="Ім'я" class="input" id="name" />
+            <p class="form-text">Номер телефону</p>
+            <input type="text" name="Номер телефону" class="input" id="gmail" />
+            <!-- <a
+            class="button"
+            href="#"
+            id="Submit_letter"
+            onclick="getValue()"
+            style="max-width: 350px; padding: 18px 100px"
+            >ПОДАТЬ ЗАЯВКУ</a
+            > -->
+            <button class="redirect-button" id="Submit_letter" onclick="getValue()" style="margin-top: 10px;" type="submit">
+              <p class="redirect-button-text">ПОДАТИ ЗАЯВКУ</p>
+            </button>
+          </form>
+          <input type="hidden" name="redirect" value="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pop_up_end" id="pop_up_end" style="z-index: 3;display: block;"> 
+    <div class="pop_up_container">
+      <div class="pop_up_body">
+        <div class="container-pop" style="padding-bottom: 50px">
+          <h3 class="pop-end-h">ДЯКУЮ!</h3>
+          <p class="pop-end-p">
+            Вашу заявку було надіслано!
+          </p>
+          <a href="index.html">
+            <button class="redirect-button">
+              <p class="redirect-button-text">НА ГОЛОВНУ</p>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
