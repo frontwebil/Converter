@@ -200,19 +200,10 @@ body {
 
 .video-slider {
   width: 320px;
-  height: 584px;
-  border-radius: 55px;
-  /* border: 7px solid #83dff4; */
-
-  /* border-image-source: linear-gradient(
-    180deg,
-    #83dff4 0%,
-    #35b1e0 52.14%,
-    #33b0e0 100%
-  ); */
-
-  /* border: 12px solid #86c3c4; */
-  /* background-color: #86c3c4; */
+  height: 570px;
+  border-radius: 35px;
+  border: 10px solid #35B1E0;
+  background-color: #35B1E0;
 }
 
 .swiper-video-container {
@@ -304,9 +295,7 @@ body {
 
 /* End Standart class */
 
-/* 
-font-family: 'Geometria', sans-serif; 
-*/
+
 
 /* Header */
 
@@ -463,12 +452,19 @@ font-family: 'Geometria', sans-serif;
 }
 
 .video-block {
-  margin-top: 50px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .video {
-  width: 100%;
+  border: 10px solid #35B1E0;
+  background-color: #35B1E0;
+
+
+
   border-radius: 30px;
+  width: 400px;
+  height: 720px;
 }
 
 .testimonials-video {
@@ -542,7 +538,7 @@ font-family: 'Geometria', sans-serif;
 }
 .tabs-card-text {
   font-family: Geometria;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 25px;
   text-align: left;

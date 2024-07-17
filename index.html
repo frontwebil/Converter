@@ -6,20 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="main.css" />
   <link rel="stylesheet" href="reset.css" />
-  <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="media.css" />
   <link href="https://fonts.cdnfonts.com/css/geometria" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <meta property="og:title" content="genergo.kyiv.ua">
-  <meta property="og:description" content="Хочете, щоб  у вашому помешканні завжди була електрика?">
-  <meta property="og:image" content="./open-graph/main.jpg">
-  <title>Converter</title>
+
+  <meta property="og:title" content="genergo.kyiv.ua" />
+  <meta property="og:description" content="Хочете, щоб  у вашому помешканні завжди була електрика?" />
+  <meta property="og:image" content="./open-graph/main.jpg" />
+
+  <title>Genergo</title>
   <style>
     html,
     body {
       position: relative;
       height: 100%;
     }
-
 
     body {
       background: #eee;
@@ -59,8 +60,7 @@
 </head>
 
 <body id="html">
-
-  <div class="pop_up" id="pop_up" style="z-index: 3;">
+  <div class="pop_up" id="pop_up" style="z-index: 3">
     <div class="pop_up_container">
       <div class="pop_up_body">
         <div class="container-pop">
@@ -74,35 +74,38 @@
             Залиште свої контакти або зв'яжіться з нами!
           </p>
 
-          <div class="pop-up-row" style="margin: 10px 10px;">
+          <div class="pop-up-row" style="margin: 10px 10px">
             <a href="tel:0800337592" class="footer-column-row">
-              <img src="icons/phone-black.svg" alt="" class="footer-column-row-icon">
-              <p class="footer-column-row-text" style="color: #000;">080 033 75 92</p>
+              <img src="icons/phone-black.svg" alt="" class="footer-column-row-icon" />
+              <p class="footer-column-row-text" style="color: #000">
+                080 033 75 92
+              </p>
             </a>
             <a href="tel:+380974597557" class="footer-column-row">
-              <img src="icons/phone-black.svg" alt="" class="footer-column-row-icon">
-              <p class="footer-column-row-text" style="color: #000;">+38 097 459 75 57 </p>
+              <img src="icons/phone-black.svg" alt="" class="footer-column-row-icon" />
+              <p class="footer-column-row-text" style="color: #000">
+                +38 097 459 75 57
+              </p>
             </a>
           </div>
 
-
-          <div class="pop-up-icons" style="margin: 10px 10px;">
+          <div class="pop-up-icons" style="margin: 10px 10px">
             <div class="footer-column-row">
               <a href="https://msng.link/o?380682202291=vi">
                 <img src="icons/viber-black.svg" alt="" class="footer-column-row-icon"
-                  style="width: 32px;height: 32px;">
+                  style="width: 32px; height: 32px" />
               </a>
               <a href="https://t.me/GenergoUA">
                 <img src="icons/telegram-black.svg" alt="" class="footer-column-row-icon"
-                  style="width: 32px;height: 32px;">
+                  style="width: 32px; height: 32px" />
               </a>
             </div>
           </div>
 
           <form class="form" action="https://api.web3forms.com/submit" method="POST">
-            <input type="hidden" name="subject" value="У вас нова заявка з сайту genergo.kyiv.ua">
+            <input type="hidden" name="subject" value="У вас нова заявка з сайту genergo.kyiv.ua" />
 
-            <input type="hidden" name="access_key" value="10387d0a-e773-4008-b068-a575d146eb9a">
+            <input type="hidden" name="access_key" value="10387d0a-e773-4008-b068-a575d146eb9a" />
 
             <p class="form-text">Ім'я</p>
             <input type="text" name="Ім'я" class="input" id="name" />
@@ -116,25 +119,23 @@
             style="max-width: 350px; padding: 18px 100px"
             >ПОДАТЬ ЗАЯВКУ</a
             > -->
-            <button class="redirect-button" id="Submit_letter" onclick="getValue()" style="margin-top: 10px;"
+            <button class="redirect-button" id="Submit_letter" onclick="getValue()" style="margin-top: 10px"
               type="submit">
               <p class="redirect-button-text">ПОДАТИ ЗАЯВКУ</p>
             </button>
-            <input type="hidden" name="redirect" value="https://frontwebil.github.io/Converter/thank-you.html">
+            <input type="hidden" name="redirect" value="https://frontwebil.github.io/Converter/thank-you.html" />
           </form>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="pop_up_end" id="pop_up_end" style="z-index: 3;display: none">
+  <div class="pop_up_end" id="pop_up_end" style="z-index: 3; display: none">
     <div class="pop_up_container">
       <div class="pop_up_body">
         <div class="container-pop" style="padding-bottom: 50px">
           <h3 class="pop-end-h">ДЯКУЮ!</h3>
-          <p class="pop-end-p">
-            Вашу заявку було надіслано!
-          </p>
+          <p class="pop-end-p">Вашу заявку було надіслано!</p>
           <a href="index.html">
             <button class="redirect-button">
               <p class="redirect-button-text">НА ГОЛОВНУ</p>
@@ -144,7 +145,6 @@
       </div>
     </div>
   </div>
-
 
   <header class="header">
     <div class="header-container">
@@ -157,7 +157,6 @@
                   #35b1e0 100%,
                   #33b0e0 100%
                 );
-
               ">
             <img src="images/header/key.png" alt="" class="header-card-image" />
             <p class="header-card-text">
@@ -166,9 +165,9 @@
             </p>
           </div>
 
-          <img src="images/header/1.png" alt="" class="first-mobile">
+          <img src="images/header/1.png" alt="" class="first-mobile" />
 
-          <div class="header-card" style="padding-right: 5px;">
+          <div class="header-card" style="padding-right: 5px">
             <img src="images/header/money.png" alt="" class="header-card-image" style="left: -45px" />
             <p class="header-card-text">
               При оплаті сьогодні <br />
@@ -177,13 +176,15 @@
             </p>
           </div>
 
-          <img src="images/header/2.png" alt="" class="second-mobile">
+          <img src="images/header/2.png" alt="" class="second-mobile" />
         </div>
 
         <div class="header-social">
           <div class="header-social-text">
             <p class="header-card-text-social-bold">У вас є питання?</p>
-            <p href="" class="header-card-text-link" style="text-decoration: underline">Пишіть нам</p>
+            <p href="" class="header-card-text-link" style="text-decoration: underline">
+              Пишіть нам
+            </p>
           </div>
           <a href="https://msng.link/o?380682202291=vi">
             <img src="icons/viber.svg" alt="" class="header-social-icons" />
@@ -197,11 +198,13 @@
       <div class="header-content">
         <div class="header-content-text">
           <h2 class="header-card-text-title">
-            Хочете, щоб  у вашому помешканні
-            <span class="bold">завжди була електрика?</span>
+            <span class="bold">Досить сидіти без світла!</span>
+
+            <!-- Хочете, щоб  у вашому помешканні
+            <span class="bold">завжди була електрика?</span> -->
           </h2>
           <p class="header-content-text-info">
-            Рішення є!!! Всього за <span class="bold">29 000</span> грн. у вас
+            Рішення є! За <span class="bold">69 000</span> грн. у вас
             буде постійно працювати холодильник, освітлення, інтернет,
             комп'ютер і телевізор
           </p>
@@ -223,7 +226,7 @@
       </div>
     </div>
   </header>
-  <a href="#video" class="arrow-bottom" style="background-color: #b9dcea;">
+  <a href="#video" class="arrow-bottom" style="background-color: #b9dcea">
     <img src="icons/arrow-bottom.svg" alt="" />
   </a>
   <section class="secction-video" id="video">
@@ -234,11 +237,11 @@
       енергозабезпечення
     </h2>
     <div class="video-block">
-      <video class="video" src="" controls poster="videos/main-video/poster.png"></video>
+      <video class="video" src="videos/main-video/main.mp4" poster="videos/main-video/main.jpg" controls></video>
     </div>
   </section>
 
-  <a href="#swiper" class="arrow-bottom-blue" style="margin-bottom: -40px;background-color: #c6e9f8;">
+  <a href="#swiper" class="arrow-bottom-blue" style="margin-bottom: -40px; background-color: #c6e9f8">
     <img src="icons/arrow-bottom.svg" alt="" />
   </a>
   <section class="testimonials-video" id="swiper">
@@ -246,38 +249,50 @@
       <span class="bold">Відгуки</span> про нашу роботу
     </h2>
 
-    <div class="swiper mySwiper"
-      style="align-items: center;overflow: hidden;padding-bottom: 50px;margin-top: 70px;text-align: center;">
+    <div class="swiper mySwiper" style="
+          align-items: center;
+          overflow: hidden;
+          padding-bottom: 50px;
+          margin-top: 70px;
+          text-align: center;
+        ">
 
-      <div class="swiper-button-prev"
-        style="color: black;width: 100px;height: 100px;top: var(--swiper-navigation-top-offset, 44%);"></div>
 
-      <div class="swiper-wrapper" style="align-items: center;" style="overflow: hidden;">
-
+      <div class="swiper-wrapper" style="align-items: center" style="overflow: hidden">
         <div class="swiper-slide">
-          <video src="" poster="videos/1.png" controls class="video-slider"></video>
+          <video src="videos/main-video/1.mp4" poster="videos/main-video/1.jpg" controls class="video-slider"
+            playsinline></video>
         </div>
 
         <div class="swiper-slide">
-          <video src="" poster="videos/2.png" controls class="video-slider"></video>
+          <video src="videos/main-video/2.mp4" poster="videos/main-video/2.jpg" controls class="video-slider"
+            playsinline></video>
         </div>
 
         <div class="swiper-slide">
-          <video src="" poster="videos/3.png" controls class="video-slider"></video>
+          <video src="videos/main-video/3.mp4" poster="videos/main-video/3.jpg" controls class="video-slider"
+            playsinline></video>
         </div>
-
       </div>
-      <div class="swiper-button-next"
-        style="color: black;width: 100px;height: 100px;top: var(--swiper-navigation-top-offset, 44%);"></div>
 
-      <img src="icons/swipe.svg" alt="" style="padding-top: 20px;">
 
+      <!-- <img src="icons/swipe.svg" alt="" style="padding-top: 20px" /> -->
 
       <div class="controls">
-        <div class="swiper-pagination" style="--swiper-theme-color: #86C3C4;"></div>
+        <div class="swiper-button-prev" style="
+        color: black;
+        width: 50px;
+        height: 50px;
+        top: var(--swiper-navigation-top-offset, 44%);
+      "></div>
+        <div class="swiper-pagination" style="--swiper-theme-color: #86c3c4"></div>
+        <div class="swiper-button-next" style="
+        color: black;
+        width: 50px;
+        height: 50px;
+        top: var(--swiper-navigation-top-offset, 44%);
+      "></div>
       </div>
-
-
     </div>
 
     <a href="#timer" class="order-button-standart" style="margin: 0 auto">
@@ -286,7 +301,7 @@
       <img src="icons/arrow-to-left.svg" alt="" class="order-button-icon" />
     </a>
 
-    <div class="today mobile-none" style="margin-top: 20px;">
+    <div class="today mobile-none" style="margin-top: 20px">
       <img src="images/all/today.png" alt="" class="today-img" />
       <p class="today-text">
         При оплаті сьогодні монтаж та підключення по
@@ -294,8 +309,8 @@
       </p>
     </div>
 
-    <div class="comfort-today-mobile" style="margin: 20px auto 0;">
-      <img src="images/comfort-mobile.png" alt="">
+    <div class="comfort-today-mobile" style="margin: 20px auto 0">
+      <img src="images/comfort-mobile.png" alt="" />
     </div>
   </section>
 
@@ -319,10 +334,10 @@
       </ul>
 
       <div class="tabs__wrapper" style="margin-top: 70px">
+
         <div class="tab__content" id="tab-1">
           <div class="tabs-cards">
-
-            <div class="flex-wrap gap-five" style="flex-wrap: nowrap;">
+            <div class="flex-wrap gap-five" style="flex-wrap: nowrap">
               <div class="tabs-card">
                 <div class="tabs-border-content">
                   <img src="icons/tabs/1.svg" alt="" class="tabs-card-img" />
@@ -339,16 +354,15 @@
                   <img src="icons/tabs/2.svg" alt="" class="tabs-card-img" />
                   <h2 class="tabs-card-title">02</h2>
                   <p class="tabs-card-text">
-                    <span class="bold">Вихідна потужність</span> може бути 1, 3,
-                    5 кВт, забезпечує чисту синусоїду для безпечної роботи
-                    побутової техніки. При бажанні можна під’єднати сонячні
-                    панелі.
+                    <span class="bold">Вихідна потужність</span> може бути 1,
+                    3, 5 кВт, забезпечує чисту синусоїду для безпечної роботи
+                    побутової техніки.
                   </p>
                 </div>
               </div>
             </div>
 
-            <div class="flex-wrap gap-five" style="flex-wrap: nowrap;">
+            <div class="flex-wrap gap-five" style="flex-wrap: nowrap">
               <div class="tabs-card">
                 <div class="tabs-border-content">
                   <img src="icons/tabs/3.svg" alt="" class="tabs-card-img" />
@@ -367,43 +381,75 @@
                   <h2 class="tabs-card-title">04</h2>
                   <p class="tabs-card-text">
                     <span class="bold">Інвертор реагує</span> миттєво на
-                    відключення електромережі. Ви навіть не будете помічати, як
-                    система перемикається на батареї і навпаки.
+                    відключення електромережі. Ви навіть не будете помічати,
+                    як система перемикається на батареї і навпаки.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab__content hidden-tab-content" id="tab-2">
+          <div class="tabs-cards">
+            <div class="flex-wrap gap-five" style="flex-wrap: nowrap">
+              <div class="tabs-card">
+                <div class="tabs-border-content">
+                  <img src="icons/tabs/5.svg" alt="" class="tabs-card-img" />
+                  <h2 class="tabs-card-title">01</h2>
+                  <p class="tabs-card-text">
+                    <span class="bold">Заряджаються від інвертора</span>
+                    під час наявності електроенергії з мережі та віддають заряд, коли мережа відсутня. 
+                  </p>
+                </div>
+              </div>
+
+
+
+              <div class="tabs-card">
+                <div class="tabs-border-content">
+                  <img src="icons/tabs/3.svg" alt="" class="tabs-card-img" />
+                  <h2 class="tabs-card-title">02</h2>
+                  <p class="tabs-card-text">
+                    <span class="bold"> Ми пропонуємо</span>
+                    літій - залізо - фосфатні акумулятори. Вони повністю безпечні та можуть розміщуватись безпосередньо
+                    в приміщенні.
                   </p>
                 </div>
               </div>
             </div>
 
+            <div class="flex-wrap gap-five" style="flex-wrap: nowrap">
 
-          </div>
-        </div>
-        <div class="tab__content hidden-tab-content" id="tab-2">
-          <div class="tabs-cards gap-five" style="flex-wrap: nowrap;">
-            <div class="tabs-card">
-              <div class="tabs-border-content">
-                <img src="icons/tabs/5.svg" alt="" class="tabs-card-img" />
-                <h2 class="tabs-card-title">01</h2>
-                <p class="tabs-card-text">
-                  <span class="bold">Заряджаються від інвертора</span> під час
-                  наявності електроенергії з мережі та віддають заряд, коли
-                  мережа відсутня. 
-                </p>
+
+              <div class="tabs-card" style="background: #eff6ff">
+                <div class="tabs-border-content">
+                  <img src="icons/tabs/6.svg" alt="" class="tabs-card-img" />
+                  <h2 class="tabs-card-title">03</h2>
+                  <p class="tabs-card-text">
+                    <span class="bold">Чому ми пропонуємо саме літій</span>
+                    - залізо фосфатні акумулятори? Тому що вони є “мерседесом” серед акумуляторів. Їх використовує Тесла
+                    та всі інші електромобілі.
+
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs-card">
+                <div class="tabs-border-content" style="background: #eff6ff">
+                  <img src="icons/tabs/4.svg" alt="" class="tabs-card-img" />
+                  <h2 class="tabs-card-title">04</h2>
+                  <p class="tabs-card-text">
+                    <span class="bold">Літій - залізо - фосфатні</span>
+                    акумулятори мають мінімальний час заряду, розряджаються до нуля, мають 4000 циклів заряду/розряду.
+
+                  </p>
+                </div>
               </div>
             </div>
-
-            <div class="tabs-card" style="background: #eff6ff">
-              <div class="tabs-border-content">
-                <img src="icons/tabs/6.svg" alt="" class="tabs-card-img" />
-                <h2 class="tabs-card-title">02</h2>
-                <p class="tabs-card-text">
-                  <span>Ми пропонуємо</span> гелеві або літій-залізо-фосфатні
-                  акумулятори. Вони повністю безпечні та можуть
-                  розміщуватись безпосередньо в приміщенні. 
-                </p>
-              </div>
-            </div>
           </div>
         </div>
+
       </div>
     </div>
 
@@ -413,7 +459,7 @@
       <img src="icons/arrow-to-left.svg" alt="" class="order-button-icon" />
     </a>
 
-    <div class="today mobile-none">
+    <div class="today mobile-none" style="margin-top: 20px;">
       <img src="images/all/today.png" alt="" class="today-img" />
       <p class="today-text">
         При оплаті сьогодні монтаж та підключення по
@@ -421,8 +467,8 @@
       </p>
     </div>
 
-    <div class="comfort-today-mobile" style="margin: 20px auto 0;">
-      <img src="images/comfort-mobile.png" alt="">
+    <div class="comfort-today-mobile" style="margin: 20px auto 0">
+      <img src="images/comfort-mobile.png" alt="" />
     </div>
   </section>
 
@@ -439,10 +485,7 @@
       <div class="flex-wrap">
         <div class="main-etaps-card">
           <img src="images/main-etaps/1.png" alt="" class="main-etaps-card-img" />
-          <h2 class="main-etaps-card-title">
-            Оцінка
-            енергоспоживання
-          </h2>
+          <h2 class="main-etaps-card-title">Оцінка енергоспоживання</h2>
           <div class="main-etaps-card-text">
             <img src="icons/succes-main.svg" alt="" class="main-etaps-card-text-icon" />
             <p class="main-etaps-card-text-info">
@@ -454,8 +497,8 @@
             <img src="icons/succes-main.svg" alt="" class="main-etaps-card-text-icon" />
             <p class="main-etaps-card-text-info">
               На початку визначаємо потреби вашої квартири чи будинку в
-              електроенергії. Це допоможе вибрати правильний розмір інвертора та
-              ємність акумуляторів.
+              електроенергії. Це допоможе вибрати правильний розмір інвертора
+              та ємність акумуляторів.
             </p>
           </div>
         </div>
@@ -498,12 +541,12 @@
               відключення мережі.
             </p>
           </div>
-          <div class="main-etaps-card-text">
+          <!-- <div class="main-etaps-card-text">
             <img src="icons/succes-main.svg" alt="" class="main-etaps-card-text-icon" />
             <p class="main-etaps-card-text-info">
               При бажанні можна під’єднати сонячні панелі.
             </p>
-          </div>
+          </div> -->
         </div>
 
         <div class="main-etaps-card">
@@ -521,13 +564,10 @@
           </div>
         </div>
       </div>
-
-
-
     </div>
   </section>
 
-  <a href="#timer" class="arrow-bottom" style="margin-bottom: -40px;margin-top: 100px;background-color: #d5eff9;">
+  <a href="#timer" class="arrow-bottom" style="margin-bottom: -40px; margin-top: 100px; background-color: #d5eff9">
     <img src="icons/arrow-bottom.svg" alt="" />
   </a>
   <div class="bg-container" id="timer">
@@ -558,84 +598,95 @@
 
       <div class="under-timer">
         <p class="under-timer-text">годин</p>
-        <p class="under-timer-text" style="padding-left: 10px;">хвилин</p>
+        <p class="under-timer-text" style="padding-left: 10px">хвилин</p>
         <p class="under-timer-text">секунд</p>
       </div>
 
       <div class="order-now-cards">
-
-        <div class="order-now-card ">
+        <div class="order-now-card">
           <p class="order-now-cards-sticker-top">тариф</p>
           <h2 class="order-now-card-title">Мінімум</h2>
 
           <div class="order-now-card-all-text">
-
             <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
-              <p class="order-now-card-text">Інвертор Must EP20-1000 Pro, 1000W/12V</p>
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">
+                Інвертор Must EP20-1000 Pro, 1000W/12V
+              </p>
             </div>
 
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
-              <p class="order-now-card-text">Гелевий акумулятор 12V, 1000AH - 1шт.</p>
-            </div>
+            <!-- <div class="order-now-card-all-text-row">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">
+                Гелевий акумулятор 12V, 1000AH - 1 шт.
+              </p>
+            </div> -->
 
             <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">
+                <!-- В наявності також є літій залізо фосфатні акумулятори. Ціну на
+                них окремо уточнюйте -->
+                Літій-залізо-фосфатний акумулятор 12V; 3,7 квт/год.
+              </p>
+            </div>
+
+            <!-- <div class="order-now-card-all-text-row">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
               <p class="order-now-card-text">Кабель для інвертора</p>
-            </div>
+            </div> -->
 
             <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
               <p class="order-now-card-text">Монтаж та підключення</p>
             </div>
 
             <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
               <p class="order-now-card-text">Тестування та налаштування</p>
             </div>
 
             <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
-              <p class="order-now-card-text">Безперервна робота холодильника, інтернету, комп'ютера, телевізора протягом
-                3 годин</p>
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">
+                Можна вмикати будь - які інші прилади, що споживають не більше 1 кВт.
+              </p>
             </div>
 
             <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
               <p class="order-now-card-text">Гарантія 12 міс.</p>
             </div>
 
             <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
-              <p class="order-now-card-text">При бажанні можна під’єднати сонячні панелі</p>
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">Кредит на 9 місяців по 8800 грн. в місяць.</p>
             </div>
-
           </div>
 
-          <div class="order-now-card-price order-now-card-low-pad">
-            <p class="order-now-card-price-old">38 500 грн</p>
-            <p class="order-now-card-price-now">29 000 грн</p>
+          <div class="order-now-card-price" style="margin-top: 155px;">
+            <p class="order-now-card-price-old">79 000 грн</p>
+            <p class="order-now-card-price-now">69 000 грн</p>
           </div>
 
-          <button class="order-button-standart open_pop_up" style="margin: 0 auto;">
+          <button class="order-button-standart open_pop_up" style="margin: 0 auto">
             <img src="icons/arrow-to-right.svg" alt="" class="order-button-icon" />
             <p class="order-button-text">Замовити</p>
             <img src="icons/arrow-to-left.svg" alt="" class="order-button-icon" />
           </button>
 
-          <div class="order-now-card-undercard mobile-none">
-            <img src="images/all/today.png" alt="" class="order-now-card-undercard-icon">
-            <p class="order-now-card-undercard-text">При оплаті сьогодні монтаж <br> та підключення по <br> <span
-                class="bold">спеціальній ціні</span></p>
+          <!-- <div class="order-now-card-undercard mobile-none">
+            <img src="images/all/today.png" alt="" class="order-now-card-undercard-icon" />
+            <p class="order-now-card-undercard-text">
+              При оплаті сьогодні монтаж <br />
+              та підключення по <br />
+              <span class="bold">спеціальній ціні</span>
+            </p>
+          </div> -->
+
+          <div class="comfort-today-mobile" style="margin-top: 20px;display: block;">
+            <img src="images/comfort-mobile1.png" alt="" />
           </div>
-
-          <div class="comfort-today-mobile" style="margin-top: 20px;">
-            <img src="images/comfort-mobile.png" alt="">
-          </div>
-
-
-
         </div>
 
         <div class="order-now-card">
@@ -643,80 +694,94 @@
           <h2 class="order-now-card-title">Оптимум</h2>
 
           <div class="order-now-card-all-text">
-
             <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
-              <p class="order-now-card-text">Інвертор Must PV18-3024VPM, 3000W/24V</p>
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">
+                Інвертор Must PV18-3024VPM, 3000W/24V
+              </p>
             </div>
 
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
-              <p class="order-now-card-text">Гелеві акумулятори 12V, 1000AH - 2 шт.</p>
-            </div>
+            <!-- <div class="order-now-card-all-text-row">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">
+                Гелеві акумулятори 12V, 1000AH - 2 шт.
+              </p>
+            </div> -->
 
             <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">
+                <!-- В наявності також є літій залізо фосфатні акумулятори. Ціну на
+                них окремо уточнюйте -->
+                Літій - залізо - фосфатний акумулятор 24V; 
+
+              </p>
+            </div>
+            <!-- 
+            <div class="order-now-card-all-text-row">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
               <p class="order-now-card-text">Кабель для інвертора 35 мм</p>
-            </div>
-
+            </div> -->
+            <!-- 
             <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
               <p class="order-now-card-text">Балансир АКБ НА01 24 В</p>
-            </div>
+            </div> -->
 
             <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
               <p class="order-now-card-text">Монтаж та підключення</p>
             </div>
 
             <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
               <p class="order-now-card-text">Тестування та налаштування</p>
             </div>
 
             <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
-              <p class="order-now-card-text">Безперервна робота холодильника, інтернету, комп'ютера, телевізора протягом
-                8 годин. Можна вмикати більш потужні прилади такі як чайник, електроплита, пилосос.</p>
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">
+                Дана система має 7,4 кВт потужності, що дозволить безперервно працювати холодильнику, інтернету,
+                компьютеру, телевізору, освітленню протягом 12 годин. Можна вмикати будь які інші побутові прилади
+                (чайник, мікрохвильова піч, пральна машина і т.д.)
+              </p>
             </div>
 
             <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
               <p class="order-now-card-text">Гарантія 12 міс.</p>
             </div>
 
             <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
-              <p class="order-now-card-text">При бажанні можна під’єднати сонячні панелі</p>
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">Кредит на 9 місяців по 14000 грн. в місяць. </p>
             </div>
 
-
-
           </div>
 
-          <div class="order-now-card-price">
-            <p class="order-now-card-price-old">52 500 грн</p>
-            <p class="order-now-card-price-now">42 500 грн</p>
+          <div class="order-now-card-price" style="margin-top: 30px;">
+            <p class="order-now-card-price-old">134 000 грн</p>
+            <p class="order-now-card-price-now">110 000 грн</p>
           </div>
 
-          <button class="order-button-standart open_pop_up" style="margin: 0 auto;">
+          <button class="order-button-standart open_pop_up" style="margin: 0 auto">
             <img src="icons/arrow-to-right.svg" alt="" class="order-button-icon" />
             <p class="order-button-text">Замовити</p>
             <img src="icons/arrow-to-left.svg" alt="" class="order-button-icon" />
           </button>
 
-          <div class="order-now-card-undercard mobile-none">
-            <img src="images/all/today.png" alt="" class="order-now-card-undercard-icon">
-            <p class="order-now-card-undercard-text">При оплаті сьогодні монтаж <br> та підключення по <br> <span
-                class="bold">спеціальній ціні</span></p>
+          <!-- <div class="order-now-card-undercard mobile-none">
+            <img src="images/all/today.png" alt="" class="order-now-card-undercard-icon" />
+            <p class="order-now-card-undercard-text">
+              При оплаті сьогодні монтаж <br />
+              та підключення по <br />
+              <span class="bold">спеціальній ціні</span>
+            </p>
+          </div> -->
+
+          <div class="comfort-today-mobile" style="margin-top: 20px;display: block;">
+            <img src="images/comfort-mobile2.png" alt="" />
           </div>
-
-          <div class="comfort-today-mobile" style="margin-top: 20px;">
-            <img src="images/comfort-mobile.png" alt="">
-          </div>
-
-
-
         </div>
 
         <div class="order-now-card">
@@ -724,165 +789,185 @@
           <h2 class="order-now-card-title">Максимум</h2>
 
           <div class="order-now-card-all-text">
-
             <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
-              <p class="order-now-card-text">Інвертор Must PV18-3024VPM, 5200W/48V</p>
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">
+                Інвертор Must PV18-3024VPM, 5200W/48V
+              </p>
             </div>
 
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
-              <p class="order-now-card-text">Гелеві акумулятори 12V, 1000АН - 4 шт. </p>
-            </div>
+            <!-- <div class="order-now-card-all-text-row">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">
+                Гелеві акумулятори 12V, 1000АН - 4 шт. 
+              </p>
+            </div> -->
 
             <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">
+                Літій - залізо - фосфатний акумулятор 48V; 14,7 кВт/год. 
+              </p>
+            </div>
+
+            <!-- <div class="order-now-card-all-text-row">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
               <p class="order-now-card-text">Кабель для інвертора 50 мм</p>
-            </div>
+            </div> -->
 
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
+            <!-- <div class="order-now-card-all-text-row">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
               <p class="order-now-card-text">Балансир АКБ НА01 48В</p>
-            </div>
+            </div> -->
 
             <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
               <p class="order-now-card-text">Монтаж та підключення</p>
             </div>
 
             <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
               <p class="order-now-card-text">Тестування та налаштування</p>
             </div>
 
             <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
-              <p class="order-now-card-text">Безперервна робота холодильника, інтернету, комп'ютера, телевізора 
-                протягом 24 годин. Можна вмикати все, що є в домі</p>
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">
+                Дана система має 14,7 кВт потужності, що дозволить безперервно працювати холодильнику, інтернету,
+                компьютеру, телевізору, освітленню протягом 24 годин. Можна вмикати будь які інші побутові прилади
+                (чайник, мікрохвильова піч, пральна машина і т.д.)
+              </p>
             </div>
 
             <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
               <p class="order-now-card-text">Гарантія 12 міс.</p>
             </div>
 
             <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon">
-              <p class="order-now-card-text">При бажанні можна під’єднати сонячні панелі</p>
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">Кредит на 9 місяців по 23600 грн. в місяць.</p>
             </div>
-
-
           </div>
 
-          <div class="order-now-card-price">
-            <p class="order-now-card-price-old">95 000 грн</p>
-            <p class="order-now-card-price-now">77 000 грн</p>
+          <div class="order-now-card-price" style="margin-top: 30px;">
+            <p class="order-now-card-price-old">215 000 грн</p>
+            <p class="order-now-card-price-now">185 000 грн</p>
           </div>
 
-          <button class="order-button-standart open_pop_up" style="margin: 0 auto;">
+          <button class="order-button-standart open_pop_up" style="margin: 0 auto">
             <img src="icons/arrow-to-right.svg" alt="" class="order-button-icon" />
             <p class="order-button-text">Замовити</p>
             <img src="icons/arrow-to-left.svg" alt="" class="order-button-icon" />
           </button>
 
-          <div class="order-now-card-undercard mobile-none">
-            <img src="images/all/today.png" alt="" class="order-now-card-undercard-icon">
-            <p class="order-now-card-undercard-text">При оплаті сьогодні монтаж <br> та підключення по <br> <span
-                class="bold">спеціальній ціні</span></p>
+          <!-- <div class="order-now-card-undercard mobile-none">
+            <img src="images/all/today.png" alt="" class="order-now-card-undercard-icon" />
+            <p class="order-now-card-undercard-text">
+              При оплаті сьогодні монтаж <br />
+              та підключення по <br />
+              <span class="bold">спеціальній ціні</span>
+            </p>
+          </div> -->
+
+
+          <div class="comfort-today-mobile" style="margin-top: 20px;display: block;">
+            <img src="images/comfort-mobile3.png" alt="" />
           </div>
-
-          <div class="comfort-today-mobile" style="margin-top: 20px;">
-            <img src="images/comfort-mobile.png" alt="">
-          </div>
-
-
-
         </div>
 
 
-
       </div>
-    </section>
+  </div>
+  </section>
   </div>
 
   <section class="what-recieve">
     <div class="what-recieve-title">
       <img src="icons/house.svg" alt="" class="title-img" />
       <h2 class="title" style="max-width: 840px">
-        <span class="bold">Що ви отримаєте</span> придбавши систему домашнього енергозбереження
+        <span class="bold">Що ви отримаєте</span> придбавши систему домашнього
+        енергозбереження
       </h2>
     </div>
 
     <div class="what-recieve-content">
-
       <div class="what-recieve-content-cards">
+        <div class="flex-wrap">
+          <div class="what-recieve-content-card">
+            <img src="icons/what-recieve/1.png" alt="" class="what-recieve-content-card-img" />
+            <p class="what-recieve-content-card-text">
+              Часткова незалежність та автономність від перебоїв в
+              електромережі
+            </p>
+          </div>
+
+          <!-- <div class="what-recieve-content-card">
+            <img src="icons/what-recieve/2.png" alt="" class="what-recieve-content-card-img">
+            <p class="what-recieve-content-card-text">При бажанні додатково можна під’єднати сонячні панелі </p>
+          </div> -->
+
+          <div class="what-recieve-content-card">
+            <img src="icons/what-recieve/8.png" alt="" class="what-recieve-content-card-img" />
+            <p class="what-recieve-content-card-text">
+              Зникне потреба у генераторах, портативних акумуляторних станціях
+              та подовжувачах по всій квартирі
+            </p>
+          </div>
+        </div>
 
         <div class="flex-wrap">
           <div class="what-recieve-content-card">
-            <img src="icons/what-recieve/1.png" alt="" class="what-recieve-content-card-img">
-            <p class="what-recieve-content-card-text">Часткова незалежність та автономність від перебоїв в електромережі
+            <img src="icons/what-recieve/3.png" alt="" class="what-recieve-content-card-img" />
+            <p class="what-recieve-content-card-text">
+              Можливість планування робочого часу
             </p>
           </div>
 
           <div class="what-recieve-content-card">
-            <img src="icons/what-recieve/2.png" alt="" class="what-recieve-content-card-img">
-            <p class="what-recieve-content-card-text">При бажанні додатково можна під’єднати сонячні панелі </p>
+            <img src="icons/what-recieve/4.png" alt="" class="what-recieve-content-card-img" />
+            <p class="what-recieve-content-card-text">
+              Вигідна інвестиція, так як ціна на систему щомісяця зростає
+            </p>
           </div>
         </div>
-
-        <div class="flex-wrap">
-          <div class="what-recieve-content-card">
-            <img src="icons/what-recieve/3.png" alt="" class="what-recieve-content-card-img">
-            <p class="what-recieve-content-card-text">Можливість планування робочого часу</p>
-          </div>
-
-          <div class="what-recieve-content-card">
-            <img src="icons/what-recieve/4.png" alt="" class="what-recieve-content-card-img">
-            <p class="what-recieve-content-card-text">Вигідна інвестиція, так як ціна на систему щомісяця зростає</p>
-          </div>
-        </div>
-
-
-
-
       </div>
 
       <div class="what-recieve-content-cards">
         <div class="flex-wrap">
           <div class="what-recieve-content-card">
-            <img src="icons/what-recieve/5.png" alt="" class="what-recieve-content-card-img">
-            <p class="what-recieve-content-card-text">Комфорт та якість життя. Наша система реагує миттєво. Ви навіть не
-              будете помічати, коли електромережа зникла,
-              а коли з’явилась
+            <img src="icons/what-recieve/5.png" alt="" class="what-recieve-content-card-img" />
+            <p class="what-recieve-content-card-text">
+              Комфорт та якість життя. Наша система реагує миттєво. Ви навіть
+              не будете помічати, коли електромережа зникла, а коли з’явилась
             </p>
           </div>
 
           <div class="what-recieve-content-card">
-            <img src="icons/what-recieve/6.png" alt="" class="what-recieve-content-card-img">
-            <p class="what-recieve-content-card-text">Віддалена робота без будь яких форс мажорів</p>
+            <img src="icons/what-recieve/6.png" alt="" class="what-recieve-content-card-img" />
+            <p class="what-recieve-content-card-text">
+              Віддалена робота без будь яких форс мажорів
+            </p>
           </div>
         </div>
         <div class="flex-wrap">
           <div class="what-recieve-content-card">
-            <img src="icons/what-recieve/7.png" alt="" class="what-recieve-content-card-img">
-            <p class="what-recieve-content-card-text">Збереження побутової техніки від перепадів та відключення напруги
+            <img src="icons/what-recieve/7.png" alt="" class="what-recieve-content-card-img" />
+            <p class="what-recieve-content-card-text">
+              Збереження побутової техніки від перепадів та відключення
+              напруги
             </p>
           </div>
 
-          <div class="what-recieve-content-card">
+          <!-- <div class="what-recieve-content-card">
             <img src="icons/what-recieve/8.png" alt="" class="what-recieve-content-card-img">
             <p class="what-recieve-content-card-text">Зникне потреба у генераторах, портативних акумуляторних станціях
               та
               подовжувачах по всій квартирі</p>
-          </div>
+          </div> -->
         </div>
-
-
-
-
       </div>
     </div>
-
   </section>
 
   <section class="about-us">
@@ -895,52 +980,83 @@
 
     <div class="about-us-content">
       <div class="about-us-content-container-img">
-        <img src="images/about-us-main-img.png" alt="" style="width: 100%;">
+        <img src="images/about-us-main-img.png" alt="" style="width: 100%" />
       </div>
 
       <div class="about-us-content-info">
-        <h3 class="about-us-content-info-title"><span class="bold">Наша компанія ТОВ “Genergo”</span> була заснована у
-          2018 році з метою забезпечення ефективних рішень у сфері енергозбереження для домогосподарств і бізнесу</h3>
+        <h3 class="about-us-content-info-title">
+          <span class="bold">Наша компанія ТОВ “Genergo”</span> була заснована
+          у 2018 році з метою забезпечення ефективних рішень у сфері
+          енергозбереження для домогосподарств і бізнесу
+        </h3>
 
         <div class="about-us-content-info-row">
-          <img src="icons/about-us/1.svg" alt="" class="about-us-content-info-row-icon">
-          <p class="about-us-content-info-row-text">Ми спеціалізуємося на встановленні систем домашнього
-            енергозбереження, які включають інвертори, акумулятори та сонячні панелі</p>
+          <img src="icons/about-us/1.svg" alt="" class="about-us-content-info-row-icon" />
+          <p class="about-us-content-info-row-text">
+            Ми спеціалізуємося на встановленні систем домашнього
+            енергозбереження, які включають інвертори, акумулятори та сонячні
+            панелі
+          </p>
         </div>
 
         <div class="about-us-content-info-row">
-          <img src="icons/about-us/2.svg" alt="" class="about-us-content-info-row-icon">
-          <p class="about-us-content-info-row-text">За роки нашої роботи ми реалізували більше 250 успішних проектів</p>
+          <img src="icons/about-us/2.svg" alt="" class="about-us-content-info-row-icon" />
+          <p class="about-us-content-info-row-text">
+            За роки нашої роботи ми реалізували більше 250 успішних проектів
+          </p>
         </div>
 
         <div class="about-us-content-info-row">
-          <img src="icons/about-us/3.svg" alt="" class="about-us-content-info-row-icon">
-          <p class="about-us-content-info-row-text">Нашими клієнтами стали приватні квартири, будинки, підприємства та
-            державні установи, які залишилися задоволеними нашими послугами</p>
+          <img src="icons/about-us/3.svg" alt="" class="about-us-content-info-row-icon" />
+          <p class="about-us-content-info-row-text">
+            Нашими клієнтами стали приватні квартири, будинки, підприємства та
+            державні установи, які залишилися задоволеними нашими послугами
+          </p>
         </div>
-
       </div>
-
     </div>
   </section>
 
   <div class="items-wrap">
     <div class="items marquee">
-      <div class="item" style="white-space: nowrap;">&nbsp; ЗАМОВИТИ &nbsp;</div>
-      <div class="item" style="white-space: nowrap;">&nbsp; ЗАМОВИТИ &nbsp;</div>
-      <div class="item mobile-line-none" style="white-space: nowrap;">&nbsp; ЗАМОВИТИ &nbsp;</div>
-      <div class="item line-none" style="white-space: nowrap;">&nbsp; ЗАМОВИТИ &nbsp;</div>
-      <div class="item line-none" style="white-space: nowrap;">&nbsp; ЗАМОВИТИ &nbsp;</div>
-      <div class="item line-none" style="white-space: nowrap;">&nbsp; ЗАМОВИТИ &nbsp;</div>
-
+      <div class="item" style="white-space: nowrap">
+        &nbsp; ЗАМОВИТИ &nbsp;
+      </div>
+      <div class="item" style="white-space: nowrap">
+        &nbsp; ЗАМОВИТИ &nbsp;
+      </div>
+      <div class="item mobile-line-none" style="white-space: nowrap">
+        &nbsp; ЗАМОВИТИ &nbsp;
+      </div>
+      <div class="item line-none" style="white-space: nowrap">
+        &nbsp; ЗАМОВИТИ &nbsp;
+      </div>
+      <div class="item line-none" style="white-space: nowrap">
+        &nbsp; ЗАМОВИТИ &nbsp;
+      </div>
+      <div class="item line-none" style="white-space: nowrap">
+        &nbsp; ЗАМОВИТИ &nbsp;
+      </div>
     </div>
     <div aria-hidden="true" class="items marquee">
-      <div class="item" style="white-space: nowrap;">&nbsp; ЗАМОВИТИ &nbsp;</div>
-      <div class="item" style="white-space: nowrap;">&nbsp; ЗАМОВИТИ &nbsp;</div>
-      <div class="item mobile-line-none" style="white-space: nowrap;">&nbsp; ЗАМОВИТИ &nbsp;</div>
-      <div class="item line-none" style="white-space: nowrap;">&nbsp; ЗАМОВИТИ &nbsp;</div>
-      <div class="item line-none" style="white-space: nowrap;">&nbsp; ЗАМОВИТИ &nbsp;</div>
-      <div class="item line-none" style="white-space: nowrap;">&nbsp; ЗАМОВИТИ &nbsp;</div>
+      <div class="item" style="white-space: nowrap">
+        &nbsp; ЗАМОВИТИ &nbsp;
+      </div>
+      <div class="item" style="white-space: nowrap">
+        &nbsp; ЗАМОВИТИ &nbsp;
+      </div>
+      <div class="item mobile-line-none" style="white-space: nowrap">
+        &nbsp; ЗАМОВИТИ &nbsp;
+      </div>
+      <div class="item line-none" style="white-space: nowrap">
+        &nbsp; ЗАМОВИТИ &nbsp;
+      </div>
+      <div class="item line-none" style="white-space: nowrap">
+        &nbsp; ЗАМОВИТИ &nbsp;
+      </div>
+      <div class="item line-none" style="white-space: nowrap">
+        &nbsp; ЗАМОВИТИ &nbsp;
+      </div>
     </div>
   </div>
 
@@ -953,23 +1069,29 @@
     </div>
 
     <div class="accordeon">
-
       <div class="accordeon-item">
         <div class="accordeon-top-button">
           <div class="accordeon-top-button-left">
             <p></p>
-            <p class="accordeon-top-button-left-text">Ще до кінця не розумію, як ця система працює? </p>
+            <p class="accordeon-top-button-left-text">
+              Ще до кінця не розумію, як ця система працює? 
+            </p>
           </div>
-          <img src="icons/plus.svg" alt="" class="accordeon-img">
+          <img src="icons/plus.svg" alt="" class="accordeon-img" />
         </div>
         <div class="accordeon-content">
           <div class="accordeon-content-text">
-            Біля вашого електрощитка встановлюють інвертор (невелика металева коробка). Поряд з ним на підлозі чи на
-            підвіконні розміщують акумулятори (вага 15-25 кг, розміром як клітка для кота). <br><br>
+            Біля вашого електрощитка встановлюють інвертор (невелика металева
+            коробка). Поряд з ним на підлозі чи на підвіконні розміщують
+            акумулятори (вага 15-25 кг, розміром як клітка для кота).
+            <br /><br />
 
-            Акумулятори під’єднують до інвертора спеціальними кабелями. Інвертор, у свою чергу, під'єднують до вашого
-            електрощитка. Коли є електромережа, акумулятори заряджаються. Коли електромережа зникає, акумулятори миттєво
-            починають генерувати електроенергію. Ви навіть не будете помічати, коли зникла мережа, а коли з’явилась. 
+            Акумулятори під’єднують до інвертора спеціальними кабелями.
+            Інвертор, у свою чергу, під'єднують до вашого електрощитка. Коли є
+            електромережа, акумулятори заряджаються. Коли електромережа
+            зникає, акумулятори миттєво починають генерувати електроенергію.
+            Ви навіть не будете помічати, коли зникла мережа, а коли
+            з’явилась. 
           </div>
         </div>
       </div>
@@ -978,14 +1100,17 @@
         <div class="accordeon-top-button">
           <div class="accordeon-top-button-left">
             <p></p>
-            <p class="accordeon-top-button-left-text">Мені здається, що це задорого</p>
+            <p class="accordeon-top-button-left-text">
+              Мені здається, що це задорого
+            </p>
           </div>
-          <img src="icons/plus.svg" alt="" class="accordeon-img">
+          <img src="icons/plus.svg" alt="" class="accordeon-img" />
         </div>
         <div class="accordeon-content">
           <div class="accordeon-content-text">
-            Наша пропозиція на ринку є найдешевшою. З кожним місяцем попит на акумулятори та інвертори зростає. Про 30
-            тис. грн. ви швидко забудете. А наша система буде радувати вас постійно.
+            Наша пропозиція на ринку є найдешевшою. З кожним місяцем попит на
+            акумулятори та інвертори зростає. Про кошти ви швидко
+            забудете. А наша система буде радувати вас постійно.
           </div>
         </div>
       </div>
@@ -994,14 +1119,17 @@
         <div class="accordeon-top-button">
           <div class="accordeon-top-button-left">
             <p></p>
-            <p class="accordeon-top-button-left-text">Не розумію для чого ця система мені.</p>
+            <p class="accordeon-top-button-left-text">
+              Не розумію для чого ця система мені.
+            </p>
           </div>
-          <img src="icons/plus.svg" alt="" class="accordeon-img">
+          <img src="icons/plus.svg" alt="" class="accordeon-img" />
         </div>
         <div class="accordeon-content">
           <div class="accordeon-content-text">
-            Ситуація з електроенергією в Україні буде погіршуватись і відключення будуть тривалішими. Ціна на дану
-            систему буде рости. Необхідно вже зараз подумати про енергонезалежність.
+            Ситуація з електроенергією в Україні буде погіршуватись і
+            відключення будуть тривалішими. Ціна на дану систему буде рости.
+            Необхідно вже зараз подумати про енергонезалежність.
           </div>
         </div>
       </div>
@@ -1014,12 +1142,12 @@
               Не впевнений, що ця система працює так, як ви розповідаєте.
             </p>
           </div>
-          <img src="icons/plus.svg" alt="" class="accordeon-img">
+          <img src="icons/plus.svg" alt="" class="accordeon-img" />
         </div>
         <div class="accordeon-content">
           <div class="accordeon-content-text">
-            Якщо у вас сумніви, ми можемо запросити вас до одного з наших задоволених клієнтів і ви особисто
-            переконаєтеся в наших словах.
+            Якщо у вас сумніви, ми можемо запросити вас до одного з наших
+            задоволених клієнтів і ви особисто переконаєтеся в наших словах.
           </div>
         </div>
       </div>
@@ -1029,19 +1157,18 @@
           <div class="accordeon-top-button-left">
             <p></p>
             <p class="accordeon-top-button-left-text">
-              Не вірю, що один чи два акумулятори можуть забезпечити мене електроенергією.
+              Не вірю, що один чи два акумулятори можуть забезпечити мене
+              електроенергією.
             </p>
           </div>
-          <img src="icons/plus.svg" alt="" class="accordeon-img">
+          <img src="icons/plus.svg" alt="" class="accordeon-img" />
         </div>
         <div class="accordeon-content">
           <div class="accordeon-content-text">
-            Це звичайна фізика. Якщо ми беремо два 100 амперних акумулятори по 12 вольт і з’єднуємо їх послідовно, то
-            формула наступна: 24В*100 аг = 2,4 кВт. Гелеві акумулятори розряджаються на 70%. 2,4 кВт * 70% = 1,7 кВт.
-            Отже, два акумулятори видають 1,7 кВт. <br><br>
-            Якщо порахувати споживання електроенергії холодильника, wi-fi
-            роутера, комп'ютера, телевізора та освітлення разом то приблизно розуміємо, що двох акумуляторів нам
-            вистачить на 4 - 8 годин роботи.
+            Це звичайна фізика. Якщо ми беремо вісім літій залізо фосфатних акумулятори по 3,3v 280 ампер разом в
+            послідовному зʼєднанні вони дають 26,4v і 280 ампер, що в свою чергу дає 7,4 Квт потужності. <br><br> З цією системою
+            холодильник, освітлення, телевізор, компʼютер, інтернет будуть працювати більше 14 годин.
+            роботи.
           </div>
         </div>
       </div>
@@ -1054,12 +1181,13 @@
               Не хочу, щоб хтось сторонній залазив в мій електрощит.
             </p>
           </div>
-          <img src="icons/plus.svg" alt="" class="accordeon-img">
+          <img src="icons/plus.svg" alt="" class="accordeon-img" />
         </div>
         <div class="accordeon-content">
           <div class="accordeon-content-text">
-            У нашій команді працюють виключно професійні електрики з великим досвідом роботи. Ми несемо повну
-            відповідальність за коректну роботу вашої електросистеми.
+            У нашій команді працюють виключно професійні електрики з великим
+            досвідом роботи. Ми несемо повну відповідальність за коректну
+            роботу вашої електросистеми.
           </div>
         </div>
       </div>
@@ -1072,12 +1200,13 @@
               Така система ненадійна
             </p>
           </div>
-          <img src="icons/plus.svg" alt="" class="accordeon-img">
+          <img src="icons/plus.svg" alt="" class="accordeon-img" />
         </div>
         <div class="accordeon-content">
           <div class="accordeon-content-text">
-            Протягом останніх двох років ми встановили більше як 250 домашніх систем енергозбереження. Всі клієнти
-            задоволені. Ми даємо гарантію на нашу роботу 12 міс.
+            Протягом останніх двох років ми встановили більше як 250 домашніх
+            систем енергозбереження. Всі клієнти задоволені. Ми даємо гарантію
+            на нашу роботу 12 міс.
           </div>
         </div>
       </div>
@@ -1087,15 +1216,17 @@
           <div class="accordeon-top-button-left">
             <p></p>
             <p class="accordeon-top-button-left-text">
-              Такі системи, можливо, підійдуть для приватних будинків. Але точно не для квартир.
+              Такі системи, можливо, підійдуть для приватних будинків. Але
+              точно не для квартир.
             </p>
           </div>
-          <img src="icons/plus.svg" alt="" class="accordeon-img">
+          <img src="icons/plus.svg" alt="" class="accordeon-img" />
         </div>
         <div class="accordeon-content">
           <div class="accordeon-content-text">
-            Більша половина наших клієнтів - це власники квартир у багатоквартирних будинках. Наша система досить
-            компактна. Навіть у коридорі вона буде виглядати гармонійно і естетично.
+            Більша половина наших клієнтів - це власники квартир у
+            багатоквартирних будинках. Наша система досить компактна. Навіть у
+            коридорі вона буде виглядати гармонійно і естетично.
           </div>
         </div>
       </div>
@@ -1105,14 +1236,37 @@
           <div class="accordeon-top-button-left">
             <p></p>
             <p class="accordeon-top-button-left-text">
-              Які гарантії?
+              Чим відрізняються гелеві і літій залізо фосфатні акумулятори?
             </p>
           </div>
-          <img src="icons/plus.svg" alt="" class="accordeon-img">
+          <img src="icons/plus.svg" alt="" class="accordeon-img" />
         </div>
         <div class="accordeon-content">
           <div class="accordeon-content-text">
-            На обладнання і роботу ми надаємо гарантію 12 міс. Ще жоден клієнт не залишився незадоволеним.
+            Ми рекомендуємо літій залізо фосфатні акумулятори тому що в них:
+            <br />
+            1. Циклів заряду/розряду суттєво більше ніж в гелевих. <br />
+            2. Залізо- фосфатні розряджаються на 100% своєї ємності. Гелеві
+            можуть розряджатись лише на 70%. <br />
+            3. Залізо фосфатні заряджаються в два рази швидше ніж гелеві.
+            <br />
+            4. Відношення ціна/потужність практично однакові в обох батареях.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordeon-item">
+        <div class="accordeon-top-button">
+          <div class="accordeon-top-button-left">
+            <p></p>
+            <p class="accordeon-top-button-left-text">Які гарантії?</p>
+          </div>
+          <img src="icons/plus.svg" alt="" class="accordeon-img" />
+        </div>
+        <div class="accordeon-content">
+          <div class="accordeon-content-text">
+            На обладнання і роботу ми надаємо гарантію 12 міс. Ще жоден клієнт
+            не залишився незадоволеним.
           </div>
         </div>
       </div>
@@ -1125,12 +1279,12 @@
               Чи можна придбати в кредит?
             </p>
           </div>
-          <img src="icons/plus.svg" alt="" class="accordeon-img">
+          <img src="icons/plus.svg" alt="" class="accordeon-img" />
         </div>
         <div class="accordeon-content">
           <div class="accordeon-content-text">
-            Так. Ми співпрацюємо з рядом банків, де ви швидко зможете оформити безвідсоткову розстрочку на купівлю нашої
-            системи.
+            Так. Ми співпрацюємо з рядом банків, де ви швидко зможете оформити
+            безвідсоткову розстрочку на купівлю нашої системи.
           </div>
         </div>
       </div>
@@ -1139,35 +1293,30 @@
         <div class="accordeon-top-button">
           <div class="accordeon-top-button-left">
             <p></p>
-            <p class="accordeon-top-button-left-text">
-              Ще сумніваєтесь?
-            </p>
+            <p class="accordeon-top-button-left-text">Ще сумніваєтесь?</p>
           </div>
-          <img src="icons/plus.svg" alt="" class="accordeon-img">
+          <img src="icons/plus.svg" alt="" class="accordeon-img" />
         </div>
         <div class="accordeon-content">
           <div class="accordeon-content-text">
-            Якщо є сумніви, зателефонуйте нам або зв’яжіться по месенджеру. Ми презентуємо вам діючу систему і відповімо
-            на всі ваші запитання.
-
+            Якщо є сумніви, зателефонуйте нам або зв’яжіться по месенджеру. Ми
+            презентуємо вам діючу систему і відповімо на всі ваші запитання.
           </div>
         </div>
       </div>
-
-
-
-
     </div>
   </section>
 
   <section class="comfort">
     <div class="card">
-      <img src="images/fam.png" alt="" class="card-bg">
+      <img src="images/fam.png" alt="" class="card-bg" />
       <div class="card-content">
-        <h2 class="card-content-title"><span class="bold">Замовляйте випробувану часом систему</span> домашнього
-          енергозбереження та забезпечте себе комфортом і стабільністю.</h2>
+        <h2 class="card-content-title">
+          <span class="bold">Замовляйте випробувану часом систему</span>
+          домашнього енергозбереження та забезпечте себе комфортом і
+          стабільністю.
+        </h2>
         <div class="card-content-row">
-
           <a href="#timer" class="order-button-standart">
             <img src="icons/arrow-to-right.svg" alt="" class="order-button-icon" />
             <p class="order-button-text">Замовити</p>
@@ -1183,73 +1332,70 @@
           </div>
 
           <div class="comfort-today-mobile">
-            <img src="images/comfort-mobile.png" alt="">
+            <img src="images/comfort-mobile.png" alt="" />
           </div>
-
-
         </div>
       </div>
     </div>
   </section>
 
   <footer class="footer">
-
     <div class="foooter-container">
-
       <div class="footer-column">
         <h2 class="footer-column-title">Контактна інформація:</h2>
         <div class="footer-column-row">
-          <img src="icons/footer/place.svg" alt="" class="footer-column-row-icon">
+          <img src="icons/footer/place.svg" alt="" class="footer-column-row-icon" />
           <p class="footer-column-row-text">м. Київ, вул. Святошинська, 1</p>
         </div>
         <div class="footer-column-row">
-          <img src="icons/footer/web.svg" alt="" class="footer-column-row-icon">
-          <a href="https://genergo.com.ua/" class="footer-column-row-text">www.genergo.com.ua </a>
+          <img src="icons/footer/web.svg" alt="" class="footer-column-row-icon" />
+          <a href="https://genergo.com.ua/" class="footer-column-row-text">www.genergo.com.ua
+          </a>
         </div>
       </div>
 
       <a href="#html">
-        <img src="icons/footer-arrow.svg" alt="" class="footer-arrow">
+        <img src="icons/footer-arrow.svg" alt="" class="footer-arrow" />
       </a>
 
       <div class="footer-column">
-        <h2 class="footer-column-title">Якщо у Вас є питання, зверніться у підтримку:</h2>
-        <a href="tel:0800337592" class="footer-column-row">
-          <img src="icons/footer/phone.svg" alt="" class="footer-column-row-icon">
-          <p class="footer-column-row-text">080 033 75 92</p>
+        <h2 class="footer-column-title">
+          Якщо у Вас є питання, зверніться у підтримку:
+        </h2>
+        <a href="tel:098 696 8319" class="footer-column-row">
+          <img src="icons/footer/phone.svg" alt="" class="footer-column-row-icon" />
+          <p class="footer-column-row-text">098 696 8319</p>
         </a>
-        <a href="tel:+380974597557" class="footer-column-row">
-          <img src="icons/footer/phone.svg" alt="" class="footer-column-row-icon">
-          <p class="footer-column-row-text">+38 097 459 75 57 </p>
-        </a>
+        <!-- <a href="tel:+380974597557" class="footer-column-row">
+            <img src="icons/footer/phone.svg" alt="" class="footer-column-row-icon" />
+            <p class="footer-column-row-text">+38 097 459 75 57</p>
+          </a> -->
         <div href="tel:+380974597557" class="footer-column-row">
-          <img src="icons/footer/clock.svg" alt="" class="footer-column-row-icon">
-          <p class="footer-column-row-text">Часи роботи 10.00 - 19.00 з понеділка по неділю</p>
+          <img src="icons/footer/clock.svg" alt="" class="footer-column-row-icon" />
+          <p class="footer-column-row-text">
+            Часи роботи 10.00 - 19.00 з понеділка по неділю
+          </p>
         </div>
-
       </div>
 
       <div class="footer-column">
-        <h2 class="footer-column-title">У вас є питання? <br>
-          <span style="text-decoration: underline;">пишіть нам</span>
+        <h2 class="footer-column-title">
+          У вас є питання? <br />
+          <span style="text-decoration: underline">пишіть нам</span>
         </h2>
 
         <div href="tel:+380974597557" class="footer-column-row">
           <a href="https://msng.link/o?380682202291=vi">
-            <img src="icons/footer/viber.svg" alt="" class="footer-column-row-icon" style="width: 32px;height: 32px;">
+            <img src="icons/footer/viber.svg" alt="" class="footer-column-row-icon" style="width: 32px; height: 32px" />
           </a>
           <a href="https://t.me/GenergoUA">
             <img src="icons/footer/telegram.svg" alt="" class="footer-column-row-icon"
-              style="width: 32px;height: 32px;">
+              style="width: 32px; height: 32px" />
           </a>
         </div>
-
       </div>
-
     </div>
   </footer>
-
-
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="script.js"></script>

@@ -124,11 +124,19 @@
 @media only screen and (max-width: 1100px) {
   .header-top {
     justify-content: center;
+    align-items: normal;
+    flex-direction: column;
+  }
+
+  .header-cards{
+    justify-content: center;
   }
 
   .header-content {
     padding: 30px 0 50px;
   }
+
+  
 
   .mobile-header-none {
     display: none;
@@ -247,13 +255,33 @@
     height: 73px;
   }
 
+  .controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 320px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .swiper-pagination{
+    position: static!important;
+  }
+
+  .swiper{
+    margin-bottom: -25px;
+  }
+
   div.swiper-button-next {
-    display: none;
+    margin-top: 5px;
+    position: static;
     width: 0;
     height: 0;
   }
   div.swiper-button-prev {
-    display: none;
+    margin-top: 5px;
+    position: static;
     width: 0;
     height: 0;
   }
@@ -277,8 +305,9 @@
   }
 
   .video {
-    height: 240px;
-    border-radius: 10px;
+      border-radius: 30px;
+      width: 300px;
+      height: 530px;
   }
 
   .testimonials-video-title {
@@ -375,6 +404,12 @@
 }
 
 @media only screen and (max-width: 375px) {
+
+  .video-slider{
+    width: 300px;
+    height: 530px;
+  }
+
   .first-mobile {
     display: block;
     max-width: 100px;
@@ -390,6 +425,17 @@
 
 @media only screen and (max-width: 340px) {
 
+  .video-slider{
+    width: 280px;
+    height: 495px;
+  }
+
+  .video {
+    border-radius: 30px;
+    width: 273px;
+    height: 485px;
+}
+
   .first-mobile {
     display: block;
     max-width: 90px;
@@ -402,9 +448,7 @@
     height: 55px;
   }
 
-  .video-slider {
-    width: 300px;
-  }
+
 
   .tabs-card-text {
     font-size: 10px;
