@@ -83,7 +83,7 @@ AccordeonTopButton.forEach((el) => {
   el.addEventListener("click", () => {
     const content = el.nextElementSibling;
     const img = el.lastElementChild;
-    const number = el.firstElementChild.firstElementChild;
+    // const number = el.firstElementChild.firstElementChild;
 
     if (content.style.maxHeight) {
       img.src = "./icons/plus.svg";
@@ -117,19 +117,9 @@ closePopUp.addEventListener("click", () => {
 
 const SubmitLetter = document.getElementById("Submit_letter");
 
-function getValue() {
-  function end() {
+function submit() {
     popUp.classList.remove("active");
     popUpEnd.classList.add("active");
-  }
-
-  const inputGmail = document.getElementById("gmail");
-  const inputName = document.getElementById("name");
-
-  const GmailValue = inputGmail.value;
-  const NameValue = inputName.value;
-
-  end();
 }
 
 
