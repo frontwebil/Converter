@@ -136,6 +136,9 @@
     padding: 30px 0 50px;
   }
 
+  .mobile-header{
+    display: flex!important;
+  }
   
 
   .mobile-header-none {

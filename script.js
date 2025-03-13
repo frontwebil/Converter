@@ -137,3 +137,21 @@ videos.forEach(video => {
       });
   });
 }); 
+
+document.querySelectorAll('.toggle-button').forEach((button) => {
+  button.addEventListener('click', () => {
+    const card = button.closest('.order-now-card'); // Знаходимо відповідний блок
+    const shortText = card.querySelector('.short-text');
+    const fullText = card.querySelector('.full-text');
+    
+    if (fullText.style.maxHeight === '0px' || !fullText.style.maxHeight) {
+      shortText.style.display = 'none';
+      fullText.style.maxHeight = fullText.scrollHeight + 'px'; // Автоматична висота
+      button.textContent = 'Згорнути';
+    } else {
+      shortText.style.display = 'inline';
+      fullText.style.maxHeight = '0';
+      button.textContent = 'Розгорнути';
+    }
+  });
+});

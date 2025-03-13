@@ -121,7 +121,7 @@
               type="submit">
               <p class="redirect-button-text">ПОДАТИ ЗАЯВКУ</p>
             </button>
-            <input type="hidden" name="redirect" value="https://frontwebil.github.io/Converter/thank-you.html" />
+            <input type="hidden" name="redirect" value="https://genergo.kyiv.ua/thank-you.html" />
           </form>
         </div>
       </div>
@@ -197,12 +197,10 @@
         <div class="header-content-text">
           <h2 class="header-card-text-title">
             <span class="bold">Досить сидіти без світла!</span>
-
-            <!-- Хочете, щоб  у вашому помешканні
-            <span class="bold">завжди була електрика?</span> -->
           </h2>
+
           <p class="header-content-text-info">
-            Рішення є! За <span class="bold">66 000</span> грн. у вас
+            Рішення є! За <span class="bold">51 000</span> грн. у вас
             буде постійно працювати холодильник, освітлення, інтернет,
             комп'ютер і телевізор
           </p>
@@ -221,6 +219,10 @@
           <p class="order-button-text">Замовити</p>
           <img src="icons/arrow-to-left.svg" alt="" class="order-button-icon" />
         </a>
+        <a href="tel:098 696 8319" class="footer-column-row mobile-header">
+          <img src="icons/tel-black.svg" alt="" class="footer-column-row-icon">
+          <p class="footer-column-row-text" style="color: #000;">+380 98 696 8319</p>
+        </a>
       </div>
     </div>
   </header>
@@ -235,7 +237,7 @@
       енергозабезпечення
     </h2>
     <div class="video-block">
-      <video class="video" src="videos/main-video/main.mp4" poster="videos/main-video/main.jpg" controls></video>
+      <video class="video" src="videos/main-video/main.mp4" poster="videos/main-video/main.jpg" controls playsinline></video>
     </div>
   </section>
 
@@ -352,9 +354,7 @@
                   <img src="icons/tabs/2.svg" alt="" class="tabs-card-img" />
                   <h2 class="tabs-card-title">02</h2>
                   <p class="tabs-card-text">
-                    <span class="bold">Вихідна потужність</span> може бути 1,
-                    3, 5 кВт, забезпечує чисту синусоїду для безпечної роботи
-                    побутової техніки.
+                    <span class="bold">Вихідна потужність</span> може бути від 1 кВт до 20 кВт і більше, в залежності від потреби та забезпечить чисту синусоїду для безпечної роботи побутової техніки
                   </p>
                 </div>
               </div>
@@ -479,10 +479,10 @@
       </h2>
     </div>
 
-    <div class="main-etaps-cards">
-      <div class="flex-wrap">
-        <div class="main-etaps-card">
-          <img src="images/main-etaps/1.png" alt="" class="main-etaps-card-img" />
+    <div class="main-etaps-cards" style="flex-direction: column;">
+      <div class="flex-wrap" >
+        <div class="main-etaps-card" style="display: none;">
+          <!-- <img src="images/main-etaps/1.png" alt="" class="main-etaps-card-img" /> -->
           <h2 class="main-etaps-card-title">Оцінка енергоспоживання</h2>
           <div class="main-etaps-card-text">
             <img src="icons/succes-main.svg" alt="" class="main-etaps-card-text-icon" />
@@ -502,7 +502,7 @@
         </div>
 
         <div class="main-etaps-card">
-          <img src="images/main-etaps/2.png" alt="" class="main-etaps-card-img" />
+          <!-- <img src="images/main-etaps/2.png" alt="" class="main-etaps-card-img" /> -->
           <h2 class="main-etaps-card-title">
             Вибір обладнання та <br />
             місця встановлення
@@ -601,82 +601,89 @@
       </div>
 
       <div class="order-now-cards">
-        <div class="order-now-card">
-          <p class="order-now-cards-sticker-top">тариф</p>
-          <h2 class="order-now-card-title">Мінімум</h2>
-
-          <div class="order-now-card-all-text">
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">
-                Інвертор Must EP20-1000 Pro, 1000W/12V
-              </p>
+        <div class="order-now-card" style="display: flex;flex-direction: column;justify-content: space-between;" id="minimum">
+          <div class="">
+            <p class="order-now-cards-sticker-top">тариф</p>
+            <h2 class="order-now-card-title">Мінімум</h2>
+            <div class="order-now-card-all-text">
+              <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">
+                  Інвертор від 1000W/12V
+                </p>
+              </div>
+  
+              <!-- <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">
+                  Гелевий акумулятор 12V, 1000AH - 1 шт.
+                </p>
+              </div> -->
+  
+              <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">
+                  <!-- В наявності також є літій залізо фосфатні акумулятори. Ціну на
+                  них окремо уточнюйте -->
+                  Літій-залізо-фосфатний акумулятор 12V; 3,7 кВт/год.
+                </p>
+              </div>
+  
+              <!-- <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">Кабель для інвертора</p>
+              </div> -->
+  
+              <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">Монтаж та підключення</p>
+              </div>
+  
+              <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">Тестування та налаштування</p>
+              </div>
+  
+              <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">
+                  <span class="short-text">Дана система має 3,7 кВт потужності...</span>
+                  <span class="full-text" style="max-height: 0; overflow: hidden; display: block; transition: max-height 0.5s ease;">
+                    Дана система має 3,7 кВт потужності, що дозволить безперервно працювати холодильнику, інтернету,
+                    комп'ютеру, телевізору, освітленню протягом 6 годин. Можна вмикати будь які інші побутові прилади, що
+                    споживають не більше 1 кВт.
+                  </span>
+                  <button class="toggle-button" onclick="toggleText()" style="text-decoration: underline;">Розгорнути</button>
+                </p>
+              </div>
+  
+              <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">Гарантія 12 міс.</p>
+              </div>
+  
+              <!-- <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">Кредит на 9 місяців по 9210 грн. в місяць.</p>
+              </div> -->
             </div>
-
-            <!-- <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">
-                Гелевий акумулятор 12V, 1000AH - 1 шт.
-              </p>
-            </div> -->
-
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">
-                <!-- В наявності також є літій залізо фосфатні акумулятори. Ціну на
-                них окремо уточнюйте -->
-                Літій-залізо-фосфатний акумулятор 12V; 3,7 кВт/год.
-              </p>
-            </div>
-
-            <!-- <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">Кабель для інвертора</p>
-            </div> -->
-
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">Монтаж та підключення</p>
-            </div>
-
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">Тестування та налаштування</p>
-            </div>
-
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">
-                Дана система має 3,7 кВт потужності, що дозволить безперервно працювати холодильнику, інтернету,
-                комп'ютеру, телевізору, освітленню протягом 6 годин. Можна вмикати будь які інші побутові прилади, що
-                споживають не більше 1 кВт.
-
-
-              </p>
-            </div>
-
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">Гарантія 36 міс.</p>
-            </div>
-
-            <!-- <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">Кредит на 9 місяців по 9210 грн. в місяць.</p>
-            </div> -->
           </div>
 
-          <div class="order-now-card-price" style="margin-top: 50px;">
-            <p class="order-now-card-price-old">76 000 грн</p>
-            <p class="order-now-card-price-now">66 000 грн</p>
+          <div class="">
+            <div class="order-now-card-price" style="margin-top: 50px;">
+              <p class="order-now-card-price-old">71 000 грн</p>
+              <p class="order-now-card-price-now">51 000 грн</p>
+            </div>
+  
+            <button class="order-button-standart open_pop_up" style="margin: 0 auto">
+              <img src="icons/arrow-to-right.svg" alt="" class="order-button-icon" />
+              <p class="order-button-text">Замовити</p>
+              <img src="icons/arrow-to-left.svg" alt="" class="order-button-icon" />
+            </button>
           </div>
 
-          <button class="order-button-standart open_pop_up" style="margin: 0 auto">
-            <img src="icons/arrow-to-right.svg" alt="" class="order-button-icon" />
-            <p class="order-button-text">Замовити</p>
-            <img src="icons/arrow-to-left.svg" alt="" class="order-button-icon" />
-          </button>
 
+          
           <!-- <div class="order-now-card-undercard mobile-none">
             <img src="images/all/today.png" alt="" class="order-now-card-undercard-icon" />
             <p class="order-now-card-undercard-text">
@@ -691,86 +698,95 @@
           </div> -->
         </div>
 
-        <div class="order-now-card">
-          <p class="order-now-cards-sticker-top">тариф</p>
-          <h2 class="order-now-card-title">Оптимум</h2>
+        <div class="order-now-card" style="display: flex;flex-direction: column;justify-content: space-between;" id="optium">
+          <div class="">
+            <p class="order-now-cards-sticker-top">тариф</p>
+            <h2 class="order-now-card-title">Оптимум</h2>
 
-          <div class="order-now-card-all-text">
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">
-                Інвертор Must PV18-3024VPM, 3000W/24V
-              </p>
+            <div class="order-now-card-all-text">
+              <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">
+                  Інвертор від 3000W/24V
+                </p>
+              </div>
+  
+              <!-- <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">
+                  Гелеві акумулятори 12V, 1000AH - 2 шт.
+                </p>
+              </div> -->
+  
+              <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">
+                  <!-- В наявності також є літій залізо фосфатні акумулятори. Ціну на
+                  них окремо уточнюйте -->
+                  Літій - залізо - фосфатний акумулятор 24V; 7,4 кВт/год.
+  
+                </p>
+              </div>
+              <!-- 
+              <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">Кабель для інвертора 35 мм</p>
+              </div> -->
+              <!-- 
+              <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">Балансир АКБ НА01 24 В</p>
+              </div> -->
+  
+              <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">Монтаж та підключення</p>
+              </div>
+  
+              <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">Тестування та налаштування</p>
+              </div>
+  
+              <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">
+                  <span class="short-text">Дана система має 7.4 кВт потужності...</span>
+                  <span class="full-text" style="max-height: 0; overflow: hidden; display: block; transition: max-height 0.5s ease;">
+                    Дана система має 7,4 кВт потужності, що дозволить безперервно працювати холодильнику, інтернету, компьютеру, телевізору, освітленню протягом 12 годин. Можна вмикати будь які інші побутові прилади (чайник, мікрохвильова піч, пральна машина і т.д.)
+                  </span>
+                  <button class="toggle-button" onclick="toggleText()" style="text-decoration: underline;">Розгорнути</button>
+                  <!-- Дана система має 7,4 кВт потужності, що дозволить безперервно працювати холодильнику, інтернету,
+                  компьютеру, телевізору, освітленню протягом 12 годин. Можна вмикати будь які інші побутові прилади
+                  (чайник, мікрохвильова піч, пральна машина і т.д.) -->
+                </p>
+              </div>
+  
+              <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">Гарантія 12 міс.</p>
+              </div>
+  
+              <!-- <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">Кредит на 9 місяців по 14310 грн. в місяць. </p>
+              </div> -->
+  
             </div>
-
-            <!-- <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">
-                Гелеві акумулятори 12V, 1000AH - 2 шт.
-              </p>
-            </div> -->
-
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">
-                <!-- В наявності також є літій залізо фосфатні акумулятори. Ціну на
-                них окремо уточнюйте -->
-                Літій - залізо - фосфатний акумулятор 24V; 7,4 кВт/год.
-
-              </p>
-            </div>
-            <!-- 
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">Кабель для інвертора 35 мм</p>
-            </div> -->
-            <!-- 
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">Балансир АКБ НА01 24 В</p>
-            </div> -->
-
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">Монтаж та підключення</p>
-            </div>
-
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">Тестування та налаштування</p>
-            </div>
-
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">
-                Дана система має 7,4 кВт потужності, що дозволить безперервно працювати холодильнику, інтернету,
-                компьютеру, телевізору, освітленню протягом 12 годин. Можна вмикати будь які інші побутові прилади
-                (чайник, мікрохвильова піч, пральна машина і т.д.)
-              </p>
-            </div>
-
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">Гарантія 36 міс.</p>
-            </div>
-
-            <!-- <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">Кредит на 9 місяців по 14310 грн. в місяць. </p>
-            </div> -->
-
           </div>
 
-          <div class="order-now-card-price" style="margin-top: 30px;">
-            <p class="order-now-card-price-old">119 000 грн</p>
-            <p class="order-now-card-price-now">99 000 грн</p>
+          <div class="">
+            <div class="order-now-card-price" style="margin-top: 30px;">
+              <p class="order-now-card-price-old">105 000 грн</p>
+              <p class="order-now-card-price-now">79 000 грн</p>
+            </div>
+  
+            <button class="order-button-standart open_pop_up" style="margin: 0 auto">
+              <img src="icons/arrow-to-right.svg" alt="" class="order-button-icon" />
+              <p class="order-button-text">Замовити</p>
+              <img src="icons/arrow-to-left.svg" alt="" class="order-button-icon" />
+            </button>
           </div>
-
-          <button class="order-button-standart open_pop_up" style="margin: 0 auto">
-            <img src="icons/arrow-to-right.svg" alt="" class="order-button-icon" />
-            <p class="order-button-text">Замовити</p>
-            <img src="icons/arrow-to-left.svg" alt="" class="order-button-icon" />
-          </button>
 
           <!-- <div class="order-now-card-undercard mobile-none">
             <img src="images/all/today.png" alt="" class="order-now-card-undercard-icon" />
@@ -786,82 +802,91 @@
           </div> -->
         </div>
 
-        <div class="order-now-card">
-          <p class="order-now-cards-sticker-top">тариф</p>
-          <h2 class="order-now-card-title">Максимум</h2>
-
-          <div class="order-now-card-all-text">
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">
-                інвертор Must PV18-5048VHM, 5200W/48V
-              </p>
+        <div class="order-now-card" style="display: flex;flex-direction: column;justify-content: space-between;" id="optiumPlus">
+          <div class="">
+            <p class="order-now-cards-sticker-top">тариф</p>
+            <h2 class="order-now-card-title">Оптимум Плюс</h2>
+  
+            <div class="order-now-card-all-text">
+              <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">
+                  інвертор 5200W/48V
+                </p>
+              </div>
+  
+              <!-- <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">
+                  Гелеві акумулятори 12V, 1000АН - 4 шт. 
+                </p>
+              </div> -->
+  
+              <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">
+                  Літій - залізо - фосфатний акумулятор 48V; 5 кВт/год.
+                </p>
+              </div>
+  
+              <!-- <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">Кабель для інвертора 50 мм</p>
+              </div> -->
+  
+              <!-- <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">Балансир АКБ НА01 48В</p>
+              </div> -->
+  
+              <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">Монтаж та підключення</p>
+              </div>
+  
+              <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">Тестування та налаштування</p>
+              </div>
+  
+              <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <div class="order-now-card-text">
+                  <span class="short-text">Дана система має 5 кВт потужності...</span>
+                  <span class="full-text" style="max-height: 0; overflow: hidden; display: block; transition: max-height 0.5s ease;">
+                    Дана система має 5 кВт потужності, що дозволить безперервно працювати холодильнику, інтернету, компьютеру, телевізору, освітленню протягом 8 годин. Можна вмикати будь які інші побутові прилади (чайник, мікрохвильова піч, пральна машина і т.д.)
+                  </span>
+                  <button class="toggle-button" onclick="toggleText()" style="text-decoration: underline;">Розгорнути</button>
+                </div>
+              </div>
+  
+              <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">Гарантія 12 міс.</p>
+              </div>
+              <!-- 
+              <div class="order-now-card-all-text-row">
+                <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+                <p class="order-now-card-text">Кредит на 9 місяців по 24750 грн. в місяць.</p>
+              </div> -->
             </div>
+  
 
-            <!-- <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">
-                Гелеві акумулятори 12V, 1000АН - 4 шт. 
-              </p>
-            </div> -->
-
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">
-                Літій - залізо - фосфатний акумулятор 48V; 14,7 кВт/год.
-              </p>
-            </div>
-
-            <!-- <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">Кабель для інвертора 50 мм</p>
-            </div> -->
-
-            <!-- <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">Балансир АКБ НА01 48В</p>
-            </div> -->
-
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">Монтаж та підключення</p>
-            </div>
-
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">Тестування та налаштування</p>
-            </div>
-
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">
-                Дана система має 14,7 кВт потужності, що дозволить безперервно працювати холодильнику, інтернету,
-                компьютеру, телевізору, освітленню протягом 24 годин. Можна вмикати будь які інші побутові прилади
-                (чайник, мікрохвильова піч, пральна машина і т.д.)
-              </p>
-            </div>
-
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">Гарантія 36 міс.</p>
-            </div>
-            <!-- 
-            <div class="order-now-card-all-text-row">
-              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
-              <p class="order-now-card-text">Кредит на 9 місяців по 24750 грн. в місяць.</p>
-            </div> -->
           </div>
 
-          <div class="order-now-card-price" style="margin-top: 30px;">
-            <p class="order-now-card-price-old">189 000 грн</p>
-            <p class="order-now-card-price-now">159 000 грн</p>
+          <div class="">
+            <div class="order-now-card-price" style="margin-top: 30px;">
+              <p class="order-now-card-price-old">119 000 грн</p>
+              <p class="order-now-card-price-now">89 000 грн</p>
+            </div>
+            <button class="order-button-standart open_pop_up" style="margin: 0 auto">
+              <img src="icons/arrow-to-right.svg" alt="" class="order-button-icon" />
+              <p class="order-button-text">Замовити</p>
+              <img src="icons/arrow-to-left.svg" alt="" class="order-button-icon" />
+            </button>
           </div>
 
-          <button class="order-button-standart open_pop_up" style="margin: 0 auto">
-            <img src="icons/arrow-to-right.svg" alt="" class="order-button-icon" />
-            <p class="order-button-text">Замовити</p>
-            <img src="icons/arrow-to-left.svg" alt="" class="order-button-icon" />
-          </button>
+
 
           <!-- <div class="order-now-card-undercard mobile-none">
             <img src="images/all/today.png" alt="" class="order-now-card-undercard-icon" />
@@ -879,6 +904,108 @@
         </div>
 
 
+      </div>
+      <div class="order-now-card" style="margin: 20px auto 0;display: flex;flex-direction: column;justify-content: space-between;" id="maximum">
+        <div class="">
+          <p class="order-now-cards-sticker-top">тариф</p>
+          <h2 class="order-now-card-title">Максимум</h2>
+  
+          <div class="order-now-card-all-text">
+            <div class="order-now-card-all-text-row">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">
+                інвертор від 5200W/48V
+              </p>
+            </div>
+  
+            <!-- <div class="order-now-card-all-text-row">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">
+                Гелеві акумулятори 12V, 1000АН - 4 шт. 
+              </p>
+            </div> -->
+  
+            <div class="order-now-card-all-text-row">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">
+                Літій - залізо - фосфатний акумулятор 48V; 14,7 кВт/год.
+              </p>
+            </div>
+  
+            <!-- <div class="order-now-card-all-text-row">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">Кабель для інвертора 50 мм</p>
+            </div> -->
+  
+            <!-- <div class="order-now-card-all-text-row">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">Балансир АКБ НА01 48В</p>
+            </div> -->
+  
+            <div class="order-now-card-all-text-row">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">Монтаж та підключення</p>
+            </div>
+  
+            <div class="order-now-card-all-text-row">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">Тестування та налаштування</p>
+            </div>
+  
+            <div class="order-now-card-all-text-row">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">
+                <span class="short-text">Дана система має 14,7 кВт потужності...</span>
+                <span class="full-text" style="max-height: 0; overflow: hidden; display: block; transition: max-height 0.5s ease;">
+                  Дана система має 14,7 кВт потужності, що дозволить безперервно працювати холодильнику, інтернету,
+                  компьютеру, телевізору, освітленню протягом 24 годин. Можна вмикати будь які інші побутові прилади
+                  (чайник, мікрохвильова піч, пральна машина і т.д.)
+                </span>
+                <button class="toggle-button" onclick="toggleText()" style="text-decoration: underline;">Розгорнути</button>
+              </p>
+            </div>
+  
+            <div class="order-now-card-all-text-row">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">Гарантія 12 міс.</p>
+            </div>
+            <!-- 
+            <div class="order-now-card-all-text-row">
+              <img src="icons/succes-main.svg" alt="" class="order-now-card-text-icon" />
+              <p class="order-now-card-text">Кредит на 9 місяців по 24750 грн. в місяць.</p>
+            </div> -->
+          </div>
+        </div>
+
+
+        <div class="">
+          <div class="order-now-card-price" style="margin-top: 30px;">
+            <p class="order-now-card-price-old">164 000 грн</p>
+            <p class="order-now-card-price-now">129 000 грн</p>
+          </div>
+  
+          <button class="order-button-standart open_pop_up" style="margin: 0 auto">
+            <img src="icons/arrow-to-right.svg" alt="" class="order-button-icon" />
+            <p class="order-button-text">Замовити</p>
+            <img src="icons/arrow-to-left.svg" alt="" class="order-button-icon" />
+          </button>
+        </div>
+
+
+
+        <!-- <div class="order-now-card-undercard mobile-none">
+          <img src="images/all/today.png" alt="" class="order-now-card-undercard-icon" />
+          <p class="order-now-card-undercard-text">
+            При оплаті сьогодні монтаж <br />
+            та підключення по <br />
+            <span class="bold">спеціальній ціні</span>
+          </p>
+        </div> -->
+
+
+        <!-- <div class="comfort-today-mobile" style="margin-top: 20px;display: block;">
+          <img src="images/comfort-mobile3.png" alt="" />
+        </div> -->
       </div>
   </div>
   </section>
@@ -1084,8 +1211,7 @@
         <div class="accordeon-content">
           <div class="accordeon-content-text">
             Біля вашого електрощитка встановлюють інвертор (невелика металева
-            коробка). Поряд з ним на підлозі чи на підвіконні розміщують
-            акумулятори (вага 15-25 кг, розміром як клітка для кота).
+            коробка). Поряд з ним на підлозі чи на підвіконні розміщують акумулятори (вага від 20 до 95 кг в залежності від потужності).
             <br /><br />
 
             Акумулятори під’єднують до інвертора спеціальними кабелями.
@@ -1342,6 +1468,7 @@
     </div>
   </section>
 
+
   <footer class="footer">
     <div class="foooter-container">
       <div class="footer-column">
@@ -1396,6 +1523,8 @@
               style="width: 32px; height: 32px" />
           </a>
         </div>
+        <a href="offerta.html" style="color: white;font-weight: 500;font-size: 14px;">ПУБЛІЧНИЙ ДОГОВІР (ОФЕРТА)</ф>
+
       </div>
     </div>
   </footer>
